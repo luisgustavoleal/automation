@@ -43,7 +43,7 @@ O script pode ser executado automaticamente usando cron;
 ```
 e adicione o evento;
 ```
-0 0 * * 1 /your/path/cloudflare-ufw/cloudflare-ufw.sh > /dev/null 2>&1
+0 0 * * 1 /your/path/your-script.sh > /dev/null 2>&1
 ```
 
 
