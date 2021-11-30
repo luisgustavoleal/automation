@@ -1,6 +1,6 @@
 ## Script para atualizar regras UFW baseado em uma lista de IPs de uma URL ou arquivo.
 
-#### Configuração
+### Configuração
 Supondo que você já tenha o ufw instalado, certifique-se de que o ufw não esteja habilitado;
 
 ```shell
@@ -35,7 +35,7 @@ Você receberá um aviso dizendo que o "comando pode interromper as conexões ss
 Você pode executar o ```# ufw status``` para ver as regras definidas.
 
 
-#### Agendamento
+### Agendamento
 Sempre que o script for executado, ele adicionará novos endereços IP do Cloudflare, portanto, considere executar o script semanalmente para garantir que ele seja mantido atualizado.
 O script pode ser executado automaticamente usando cron;
 ```
@@ -47,7 +47,7 @@ e adicione o evento;
 ```
 
 
-#### Excluir regra
+### Excluir regra
 Caso necessite excluir alguma regra, em primeiro lugar obtenha uma lista numerada de todas as regras:
 ```
 # ufw status numbered
