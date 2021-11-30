@@ -1,4 +1,4 @@
-# Automation
+## Automation
 
 Automatizar processos para a implantação e/ou manutenção de servidores e softwares pode remover algumas tarefas repetitivas de suas listas.
 
@@ -9,3 +9,6 @@ Deixo aqui alguns exemplos de scripts de automação úteis em algumas linguagen
 Para que compreendam do que se trata cada um dos exemplos, deixo abaixo o modelo de nomenclatura que sigo dos ficheiros/arquivos rs
 
 ### OS-Linguagem-Software-finalidade.extensao
+
+PS: Nome do arquivo.MD contém instruções quando necessário.
+
