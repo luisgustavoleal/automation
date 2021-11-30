@@ -1,6 +1,6 @@
-# Script para atualizar regras UFW baseado em uma lista de IPs de uma URL ou arquivo.
+## Script para atualizar regras UFW baseado em uma lista de IPs de uma URL ou arquivo.
 
-## Configuração
+#### Configuração
 Supondo que você já tenha o ufw instalado, certifique-se de que o ufw não esteja habilitado;
 
 ```shell
