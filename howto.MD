@@ -1,13 +1,16 @@
-# Script para atualizar regras UFW baseado em uma lista de IPs
+# Script para atualizar regras UFW baseado em uma lista de IPs de uma URL ou arquivo.
 
 ## Configuração
 Supondo que você já tenha o ufw instalado, certifique-se de que o ufw não esteja habilitado;
 
-sudo ufw status verbose
+```shell
+ufw status verbose
+```
 
 Se não estiver habilitado, a resposta deve ser, Status: Disable, se não, vamos desabilitá-lo;
-Lb
-sudo ufw disable
+```
+ufw disable
+```
 
 Limpe todas as regras existentes;
 
