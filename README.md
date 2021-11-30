@@ -8,4 +8,4 @@ Deixo aqui alguns exemplos de scripts de automação úteis em algumas linguagen
 
 Para que compreendão do que se trata cada um dos exemplo deixo abaixo o modelo de nomenclatura que sigo dos ficheiros/arquivos rs
 
-## OS-Linguagem-Software-finalidade.extensao
+### OS-Linguagem-Software-finalidade.extensao
