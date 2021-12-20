@@ -27,4 +27,7 @@ for ip in `cat /scripts/list_ips`; do ufw allow proto tcp from $ip to any port 2
 # Restrict to ports 10050 [ ZABBIX ]
 for ip in `cat /scripts/list_ips`; do ufw allow proto tcp from $ip to any port 10050 comment 'Zabbix to Portugal'; done
 
+# Restrict to ports 3306 [ MySQL ]
+for ip in `cat /scripts/list_ips`; do ufw allow proto tcp from $ip to any port 3306 comment 'Zabbix to Portugal'; done
+
 ufw reload > /dev/null
